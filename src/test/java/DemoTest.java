@@ -16,7 +16,7 @@ public class DemoTest {
         ChromeDriverManager.getInstance().setup();
     }
 
-    @Test(enabled = false)
+    @Test
     public void testGoogleSearch() throws InterruptedException {
         driver = new ChromeDriver();
         driver.get("http://www.google.com/xhtml");
